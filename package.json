@@ -1,14 +1,14 @@
 {
+  "author": "Pierce Moore <me@prex.io>",
   "name": "rex-git",
-  "version": "0.0.1",
   "description": "A toolkit built in Node.js that makes it easy to perform git operations recursively on a folder and its subfolders.",
-  "main": "rex-git.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage" : "https://github.com/rex/rex-git",
+  "version": "0.0.1",
+  "main": "./rex-git.js",
+  "bin" : "./rex-git.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rex/rex-git"
+    "url": "https://github.com/rex/rex-git.git"
   },
   "keywords": [
     "git",
@@ -16,8 +16,16 @@
     "recursive",
     "rex"
   ],
-  "author": "Pierce Moore <me@prex.io>",
   "license": "MIT",
   "readmeFilename": "README.md",
+  "dependencies": {
+    "optimist": "*",
+    "supercli": "*",
+    "underscore": "*",
+    "async": "*"
+  },
+  "app" : {
+    
+  },
   "gitHead": "e08b7807fb44cd0890a43a79a3c3a33aed63a1a1"
 }
