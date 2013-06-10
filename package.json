@@ -29,10 +29,11 @@
     "optimist": "*",
     "underscore": "*",
     "async": "*",
-    "rex-shell" : "*"
+    "rex-shell" : "*",
+    "rex-exec" : "*"
   },
   "devDependencies" : {
-    "mocha" : "*"
+  
   },
   "engines" : {
     "node" : ">=0.10.x"
@@ -42,7 +43,7 @@
     "url": "https://github.com/rex/rex-git/issues"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "node ./test/rex-git.test.js"
   },
   "preferGlobal" : true
 }
