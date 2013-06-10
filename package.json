@@ -3,11 +3,11 @@
   "name": "rex-git",
   "description": "A toolkit built in Node.js that makes it easy to perform git operations recursively on a folder and its subfolders.",
   "homepage": "https://github.com/rex/rex-git",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "./lib/rex-git.js",
   "bin": {
     "rex-git": "./bin/rex-kickstart",
-    "rgit" : "./bin/rex-kickstart"
+    "rgit": "./bin/rex-kickstart"
   },
   "repository": {
     "type": "git",
@@ -21,22 +21,20 @@
   ],
   "license": "MIT",
   "readmeFilename": "README.md",
-  "directories" : {
-    "lib" : "./lib",
-    "test" : "./test"
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
   },
   "dependencies": {
     "optimist": "*",
     "underscore": "*",
     "async": "*",
-    "rex-shell" : "*",
-    "rex-exec" : "*"
+    "rex-shell": "*",
+    "rex-exec": "*"
   },
-  "devDependencies" : {
-  
-  },
-  "engines" : {
-    "node" : ">=0.10.x"
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.x"
   },
   "config": {},
   "bugs": {
@@ -45,5 +43,5 @@
   "scripts": {
     "test": "node ./test/rex-git.test.js"
   },
-  "preferGlobal" : true
+  "preferGlobal": true
 }
