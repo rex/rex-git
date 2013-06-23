@@ -3,7 +3,7 @@
   "name": "rex-git",
   "description": "A toolkit built in Node.js that makes it easy to perform git operations recursively on a folder and its subfolders.",
   "homepage": "https://github.com/rex/rex-git",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "main": "./lib/rex-git.js",
   "bin": {
     "rex-git": "./bin/rex-kickstart",
@@ -36,13 +36,13 @@
     "node": ">=0.10.x"
   },
   "config": {
-    "cli" : {
-      "usage" : "rex-git [list|status|pull]",
-      "args" : {
-        "list" : "Find and display all git repos in the current directory or a path, if specified.",
-        "status" : "Display the status of all the git repos in the current directory or a path, if specified.",
-        "pull" : "Fetch the latest changes for all git repos in the current directory or a path, if specified.",
-        "dirty" : "Display all the git repos in the provided directory that are in an unclean state. (No Windows Support yet, sorry!)"
+    "cli": {
+      "usage": "rex-git [list|status|pull]",
+      "args": {
+        "list": "Find and display all git repos in the current directory or a path, if specified.",
+        "status": "Display the status of all the git repos in the current directory or a path, if specified.",
+        "pull": "Fetch the latest changes for all git repos in the current directory or a path, if specified.",
+        "dirty": "Display all the git repos in the provided directory that are in an unclean state. (No Windows Support yet, sorry!)"
       }
     }
   },
