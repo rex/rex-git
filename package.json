@@ -32,12 +32,9 @@
     "rex-utils": "*"
   },
   "devDependencies": {},
-  "engines": {
-    "node": ">=0.10.x"
-  },
   "config": {
     "cli": {
-      "usage": "rex-git [list|status|pull]",
+      "usage": "rex-git [list] [status] [pull]",
       "args": {
         "list": "Find and display all git repos in the current directory or a path, if specified.",
         "status": "Display the status of all the git repos in the current directory or a path, if specified.",
