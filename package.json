@@ -3,7 +3,7 @@
   "name": "rex-git",
   "description": "A toolkit built in Node.js that makes it easy to perform git operations recursively on a folder and its subfolders.",
   "homepage": "https://github.com/rex/rex-git",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "./lib/rex-git.js",
   "bin": {
     "rex-git": "./bin/rex-kickstart",
